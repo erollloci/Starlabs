@@ -2,16 +2,10 @@
     --primary-color:#155bd5;
     --body-fonts: "Inter", sans-serif;
     --line-height: 1.5;
-    --f-color:#d3d3d3da;
+    --text-color:#d3d3d3da;
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-body {
-    font-family: var(--body-fonts);
-}
-.logo a {
-    color: white;
 }
