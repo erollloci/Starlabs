@@ -88,8 +88,6 @@ header {
 .u-button:hover {
     background: whitesmoke;
     color: crimson;
-    transition: 0.2s ease-in;
-    border: 1px solid crimson;
 }
 .l-button {
     padding: 10px 50px;
@@ -171,6 +169,17 @@ p {
 }
 .explore-content .u-button {
     margin-top: 40px;
+}
+.fa-regular{
+    font-size: 7vmin;
+    color: crimson;
+}
+.explore .video {
+    margin-top: 30px;
+}
+.explore .video:hover{
+    scale: 1.1;
+    transition: 0.3s ease-out;
 }
 /* Tours */
 .content-col {
