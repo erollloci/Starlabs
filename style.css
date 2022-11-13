@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     font-family: var(--body-fonts);
+    scroll-behavior: smooth;
 }
 body {
     overflow-x: hidden;
@@ -149,7 +150,6 @@ p {
     background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/images/img3.jpg);
     display: flex;
     align-items: center;
-
 }
 .explore-content {
     width: 60%;
@@ -197,7 +197,6 @@ p {
     cursor: pointer;
     box-shadow: 5px 5px 5px 5px #888888;
 }
-
 .content-col h1{
     font-size: 7vmin;
 }
@@ -206,6 +205,7 @@ p {
     margin: 30px auto;
 }
 /* About */
+
 /* Footer */
 .footer {
     width: 100%;
