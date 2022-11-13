@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
     <!--Navbar-->
@@ -20,12 +21,13 @@
             </a>
         </div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Tours</a></li>
             <li><a href="#">Explore</a></li>
             <li><a href="#">About</a></li>
             <a href="#" class="u-button"><li>Contact Us</li></a>
         </ul>
+        <div class="material-symbols-outlined">menu</div>
     </nav>
     <!--Hero-content-->
     <header>
@@ -37,6 +39,11 @@
         </div>
     </header>
 
+    <script>
+        const menuButton = document.querySelector('.material-symbols-outlined')
+        const navLinks = document.querySelector('.nav-links')
 
+        menuButton.addEventListener('click',()=>{navLinks.classList.toggle('mobile-menu')})
+    </script>
 </body>
 </html>
