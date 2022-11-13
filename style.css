@@ -244,6 +244,9 @@ textarea {
     width: 90%;
     margin: 10px;
 }
+.gmap_canvas{
+    border-radius: 10px;
+}
 /* Footer */
 .footer {
     width: 100%;
@@ -330,6 +333,9 @@ textarea {
     }
     .image-gallery img {
         width: 90%;
+    }
+    .input-type{
+        width: 100%;
     }
 
 }
