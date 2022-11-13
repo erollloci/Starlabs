@@ -130,8 +130,68 @@ p {
 .tours .u-button {
     margin-top: 30px;
 }
+/* Explore */
 
+.explore {
+    width: 100%;
+    height: 80vh;
+    background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/images/img3.jpg);
+    display: flex;
+    align-items: center;
 
+}
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1 {
+    font-size: 7vmin;
+    margin-bottom: 50px;
+}
+.explore-content .after-line{
+    margin-bottom: 50px;
+}
+.explore-content p {
+    color:whitesmoke;
+}
+.explore-content .u-button {
+    margin-top: 40px;
+}
+/* Tours */
+.content-col {
+    width: 40%;
+    margin-right: 80px;
+}
+.image-col {
+    width: 60%;
+}
+.tours .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+    max-width: 300px;
+    margin: 10px;
+}
+.image-gallery img:hover {
+    scale: 1.01;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+
+}
+.content-col h1{
+    font-size: 7vmin;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
 /* Mobile*/
 @media only screen and (max-width: 850px) {
     .navbar {
